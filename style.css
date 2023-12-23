@@ -1,0 +1,64 @@
+body,html{
+  margin: 0;
+  background-color: rgb(68, 68, 68);
+}
+
+#card{
+  background-color: white;
+  width: 50%;
+  height: 40Vh;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 25px;
+}
+
+#compteur{
+  grid-column: 1/4;
+  font-size: 45px;
+  height: 20%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.btnContainer{
+  height: 70%;
+  width: 100%;
+
+}
+button{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: transparent;
+}
+
+#b1{
+  background-color: rgb(124, 51, 51);
+  color: rgb(202, 202, 202);
+  font-size: 35px;
+}
+
+#b2{
+  background-color: rgb(38, 83, 109);
+  color: rgb(202, 202, 202);
+  font-size: 35px;
+}
+
+#b3{
+  background-color: rgb(23, 105, 64);
+  color: rgb(202, 202, 202);
+  font-size: 35px;
+}
+
+#reset{
+  background-color: rgb(2, 2, 1);
+  color: rgb(202, 202, 202);
+  font-size: 35px;
+  grid-column: 2/3;
+}
