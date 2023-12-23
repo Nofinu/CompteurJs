@@ -1,4 +1,4 @@
-const display = document.querySelector('#compteur');
+const display = document.getElementById('compteur');
 const b1 = document.querySelector('#b1');
 const b2 = document.querySelector('#b2');
 const b3 = document.querySelector('#b3');
@@ -6,7 +6,7 @@ const reset = document.querySelector('#reset');
 let cpt = 0;
 
 function displayfnt (){
-  display.textContent = "Total : "+ cpt;
+  display.value = cpt;
 }
 
 document.addEventListener('keydown',(e)=>{
@@ -50,6 +50,11 @@ reset.addEventListener("click",(e)=>{
     cpt = 0;
     displayfnt()
   }
+})
+
+display.addEventListener('change',(e)=>{
+  console.log(display.value)
+  cpt = Number(display.value);
 })
 
 
