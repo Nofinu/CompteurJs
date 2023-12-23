@@ -5,8 +5,8 @@ body,html{
 
 #card{
   background-color: white;
-  width: 50%;
-  height: 60Vh;
+  width: 90%;
+  height: 70VH;
   border-radius: 20px;
   margin: auto;
   margin-top: 5%;
@@ -30,7 +30,7 @@ body,html{
 
 #compteurText>input{
   height: 50px;
-  width: 15%;
+  width: 25%;
   border: transparent;
   font-size: 45px;
   margin-left: 5px;
