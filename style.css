@@ -12,10 +12,24 @@ body,html{
   margin-top: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   align-items: center;
   gap: 20px;
   padding: 25px;
+}
+
+#completion{
+  grid-column: 1/4;
+  height: 15px;
+  border: solid rgb(146, 146, 146) 1px;
+  border-radius: 15px;
+}
+
+#progres{
+  width: 0%;
+  height: 15px;
+  background: linear-gradient(0.25turn,#182172, #2f97c0);;
+  border-radius: 15px;
 }
 
 #compteurText{
